@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30%;
+}
+#app {
+  width: 700px;
+  height: 290px;
+  position: relative;
+  background-color: coral;
+  border: 2px solid black;
+}
+#myId {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: cyan;
+  transition: 1s ease-in-out;
+}
+
+/* Body Header */
